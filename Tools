@@ -1,0 +1,234 @@
+# Tools
+#usr/bin/bash
+bi='\033[34;1m' #biru
+ij='\033[32;1m' #ijo
+pr='\033[35;1m' #purple
+cy='\033[36;1m' #cyan
+me='\033[31;1m' #merah
+pu='\033[37;1m' #putih
+ku='\033[33;1m' #kuning
+#pembukaan
+clear
+figlet _WELCOME_|lolcat
+figlet TO MY TOOLS|lolcat
+sleep 0.1
+echo "$cy ••••••••••••••|TAUFIQ X|••••••••••••••"
+sleep 0.1
+echo "$bi ••••••••••••••|NEW TOOLS|••••••••••••••"
+sleep 0.1
+echo "$ku |---------------------------------------|"
+sleep 0.1
+echo "$ku |AUTHOR : TAUFIQ X                      |"
+sleep 0.1
+echo "$ku |TEAM   : LOMBOK CYBER ARMY             |"
+sleep 0.1
+echo "$ku |WHATSAPP: +6287758655798               |"
+sleep 0.1
+echo "$ku |---------------------------------------|"
+sleep 0.1
+echo "$me {•}LOADING......"
+sleep 3
+clear
+echo
+#variabel
+taufiq="$me"
+febri="$me selamat datang di tools"
+echo
+sleep 0.1
+echo $taufiq $febri
+clear
+sleep 0.1
+echo "$ij>LOGIN TERLEBIH DAHULU<"
+sleep 0.1
+#buat password
+qu="SELAMAT DATANG"
+    read -p "MASUKAN YOURNAME :" user;
+    read -p "MASUKAN PASSWORD :" pass;
+    sleep 0.1
+echo
+echo $qu $nama
+      sleep 0.1
+#kondisi
+if [ $pass = "TAUFIQX" ]
+       then
+       echo
+       echo "$me PASSWORD BENAR"
+       echo "$ij ANDA AKAN DI ARAHKAN KE TOOLS"
+       sleep 0.1
+       else
+       echo
+       echo "$ku PASSWORD SALAH"
+       sh Tools.sh
+fi
+sleep 0.1
+clear
+echo
+figlet -s  "TERMUX"|lolcat
+echo "$me ┈┈┈╲┈┈┈┈╱"
+                           sleep 0.1
+                           echo "$me ┈┈┈╱     ▔▔╲"
+                           sleep 0.1
+                           echo "$ku ┈┈┃┈▇┈┈▇┈┃"
+                           sleep 0.1
+                           echo "$ku ╭╮┣━━━━━━┫╭╮"
+                           sleep 0.1
+                           echo "$ij ┃┃┃┈┈┈┈┈┈┃┃┃"
+                           sleep 0.1
+                           echo "$ij ╰╯┃┈┈┈┈┈┈┃╰╯"
+                           sleep 0.1
+                           echo "$cy ┈┈╰┓┏━━┓┏╯"
+                           sleep 0 1
+                           echo "$cy ┈┈┈╰╯┈┈╰╯"
+sleep 0.1
+echo "$me ╔════•ೋೋ•════╗"
+echo "$cy 1.DARK FB"
+echo "$me ╚════•ೋೋ•════╝"
+sleep 0.1
+echo "$cy ╔════•ೋೋ•════╗"
+echo "$ij 2.TERMUX TEMA"
+echo "$cy ╚════•ೋೋ•════╝"
+sleep 0.1
+echo "$ij ╔════•ೋೋ•════╗"
+echo "$me 3.CCTV HACK"
+echo "$ij ╚════•ೋೋ•════╝"
+sleep 0.1
+echo "$pu ╔════•ೋೋ•════╗"
+echo "$pr 4.DEFACE SC"
+echo "$pu ╚════•ೋೋ•════╝"
+sleep 0.1
+echo "$pr ╔════•ೋೋ•════╗"
+echo "$pu 5.RANSOMEWARE"
+echo "$pr ╚════•ೋೋ•════╝"
+sleep 0.1
+echo "$ku ╔════•ೋೋ•════╗"
+echo "$bi 6.DDOS ATTACK"
+echo "$ku ╚════•ೋೋ•════╝"
+sleep 0.1
+echo "$bi ╔════•ೋೋ•════╗"
+echo "$ku 7.IP SCAN"
+echo "$bi ╚════•ೋೋ•════╝"
+sleep 0.1
+echo "$me ╔════•ೋೋ•════╗"
+echo "$bi 8.INSTALLER"
+echo "$me ╚════•ೋೋ•════╝"
+sleep 0.1
+echo "$ij ╔════•ೋೋ•════╗"
+echo "$cy 9.INSTALL BAHAN"
+echo "$ij ╚════•ೋೋ•════╝"
+sleep 0.1
+echo "$pr ╔════•ೋೋ•════╗"
+echo "$me 10.EXIT"
+echo "$pr ╚════•ೋೋ•════╝"
+read -p "PILIH TOOLS NYA ▄︻┻̿═━一" pil
+
+if [ $pil = 1 ]
+then
+clear
+figlet "_TUNGGU_"|lolcat
+sleep 2
+git clone https://github.com/Bangbadruyt/crackfbi
+cd crackfbi
+python2 crackfbi.py
+fi
+
+if [ $pil = 2 ]
+then
+clear
+figlet "_TUNGGU_"|lolcat
+sleep 2
+git clone https://github.com/Cabbagec/termux-ohmyzsh
+cd termux-ohmyzsh
+chmod +x *
+./install.sh
+fi
+
+if [ $pil = 3 ]
+then
+clear
+figlet "_TUNGGU_"|lolcat
+sleep 2
+git clone https://github.com/kancotdiq/ipcs
+cd ipcs
+python2 scan.py
+fi
+
+if [ $pil = 4 ]
+then
+clear
+figlet "_TUNGGU_"|lolcat
+sleep 2
+git clone https://github.com/4L13199/LITESCRIPT
+chomod 777 LITESECRIPT.py
+python2 LITESCRIPT.py
+fi
+
+if [ $pil = 5 ]
+then
+clear
+figlet "_TUNGGU_"|lolcat
+sleep 2
+git clone https://github.com/JejakCyber/Ransomware
+cd Ransomeware
+python2 serang.py
+fi
+
+if [ $pil = 6 ]
+then
+clear
+figlet "_TUNGGU_"|lolcat
+sleep 2
+git clone https://github.com/BHC-FAKE/BlackHatAttack
+cd BlackHatAttack
+python blackhat.py
+fi
+
+if [ $pil = 7 ]
+then
+clear
+figlet "_TUNGGU_"|lolcat
+sleep 2
+git clone https://github.com/Bl4ckDr460n/ScanIp
+cd ScanIp
+python2 scanip.py
+fi
+
+if [ $pil = 8 ]
+then
+clear
+figlet "_TUNGGU_"|lolcat
+sleep 2
+git clone https://github.com/InYourG00D1/InstallPlerN2
+cd InstallPlerN2
+sh InstallPlerV2.sh
+fi
+
+if [ $pil = 9 ]
+then
+clear
+figlet "_TUNGGU_"|lolcat
+sleep 2
+apt update && apt upgrade
+apt install python2
+pip2 install urllib3 chardet certifi idna requests
+pkg install git
+pip2 install mechanize
+pkg install curl
+pkg install ruby
+pkg install gem
+gem install lolcat
+pkg install git
+pkg install php
+pkg install ruby cowsay toilet figlet
+pkg install neofetch
+pkg install nano
+figlet "_SELESAI"|lolcat
+fi
+
+if [ $pil = 10 ]
+then
+clear
+figlet "_EXIT_"|lolcat
+sleep 0.1
+echo "$me THANKS SUDAH MEMAKAI TOOLS INI"
+exit
+fi
